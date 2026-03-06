@@ -1,13 +1,13 @@
 package com.example.grade_calculator
 
 data class Course(
-    val courseName: String,
-    var caMark: Int?,      // Nullable
-    var examMark: Int?     // Nullable
+    val name: String,
+    val ca: Int?,
+    val exam: Int?
 )
 
 data class Student(
     val name: String,
-    val studentId: String,
+    val id: String,
     val courses: MutableList<Course>
 )
