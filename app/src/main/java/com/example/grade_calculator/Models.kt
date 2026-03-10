@@ -1,9 +1,9 @@
 package com.example.grade_calculator
 
 data class Course(
-    val name: String,
-    val ca: Int?,
-    val exam: Int?
+    val courseName: String,
+    val caMark: Int?,
+    val examMark: Int?
 )
 
 data class Student(
