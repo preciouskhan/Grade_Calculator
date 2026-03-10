@@ -48,13 +48,13 @@ class MainActivity : AppCompatActivity() {
 
             val student = Student(
                 name = etName.text.toString(),
-                studentId = etId.text.toString(),
+                id = etId.text.toString(),
                 courses = courses
             )
 
             val resultText = StringBuilder()
             resultText.append("Name: ${student.name}\n")
-            resultText.append("ID: ${student.studentId}\n\n")
+            resultText.append("ID: ${student.id}\n\n")
 
             for (course in student.courses) {
 
